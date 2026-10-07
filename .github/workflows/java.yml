@@ -18,7 +18,7 @@ jobs:
         run: javac Welcome.java
       - name: Run
         run: java Welcome
-           # CD
+        # CD
       - name: Create JAR
         run: jar --create --file Welcome.jar Welcome.class
 
@@ -27,4 +27,3 @@ jobs:
         with:
           name: Welcome-App
           path: Welcome.jar
-      
